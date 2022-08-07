@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;    
+}
+/*== Colors ==*/
+:root{
+    --first-color: rgba(255, 204, 204, 0.2);
+    --second-color: rgba(0,0,0,0.7);
+    --third-color: rgba(0,0,0,0.8);
+    --fourth-color: red;
+    --fifth-color: rgba(255, 255, 255, 1);
+    --sixth-color: rgba(0,0,0,1);
+}
+.container{
+    background: var(--first-color);
+    text-align: center;
+    padding: 7% 7% 27% 7%;
+}
+.container header{
+    font-size: 156.55%;
+    color: var(--third-color);
+    font-weight: 500;
+}
+header span{
+    color: var(--fourth-color);
+}
+
+/* == Content Section == */
+.content p:nth-child(1){
+    padding: 10% 5% 5% 5%;
+    font-size: 199.55%;
+    font-weight: 501;
+    color: var(--second-color);
+}
+.content p:nth-child(2){
+    color: var(--third-color);
+    line-height: 1.5em;
+    line-spacing: 1.3em;
+    font-size: 118.75%;
+    padding: 0 5% 0 5%;
+}
+.content p:nth-child(2) a{
+    text-decoration: none;
+    color: var(--fourth-color);
+}
+/* == Button Section == */
+.click{
+    padding-top: 10%;
+}
+.click a{
+    text-decoration: none;
+    margin: 1%;
+    padding: 12px 18px;
+    font-size: 100.00%;
+}
+.click a:nth-child(1){
+    background: var(--fourth-color);
+    color: var(--fifth-color);
+}
+.click a:nth-child(2){
+    background: var(--fifth-color);
+    color: var(--fourth-color);
+    border: 1px solid var(--fourth-color);
+}
+/* 2nd Paragraph */
+.zuriteam{
+    text-align: center;
+    padding: 15% 15% 10% 15%;
+    line-height: 3.0em;
+}
+.zuriteam p:nth-child(1){
+    color: var(--fourth-color);
+}
+.zuriteam p:nth-child(2){
+    font-size: 200.00%;
+    padding: 0% 14% 0% 14%;
+    color: var(--second-color);
+    
+}
+/* flex Container Sections */
+span.dot{
+    color: var(--fourth-color);
+}
+.flex-carriage div{
+    background: var(--first-color);
+    margin: 3% 2% 4% 2%;
+    padding: 3% 3% 11% 3%;
+    line-height: 1.5em;
+}
+
+.flex-carriage div p:nth-child(1){
+    background: var(--fifth-color);
+    width: 15%;
+    padding: 38px 2px;
+    color: var(--sixth-color);
+    font-weight: 600;
+    text-align: center;
+}
+.flex-carriage div p.trained{
+    font-size: 62.50%;
+}
+.flex-carriage div a{
+    font-size: 61.20%;
+}
+.flex-carriage a{
+    text-decoration: none;
+    color: var(--fourth-color);
+}
+/* Feeter Section */
+.feeter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 8%;
+    border-bottom: 1px solid var(--second-color);
+}
+.feeter div{
+    padding: 12% 0% 0% 0%;
+    line-height: 1.8em;
+}
+.links a{
+    margin: 0%;
+    color: var(--fourth-color);
+    text-decoration: none;
+    font-size: 100.00%;
+    font-weight: 0;
+}        
+.feeter div:nth-child(3) a{
+    text-decoration: none;
+    color: var(--fourth-color);
+}
+.feeter div:nth-child(4) img{
+    width: 13px;
+    height: 13px;
+}
+.feeter p:nth-child(1){
+    font-size: 112.50%;
+    font-weight: 510;
+    color: var(--second-color);
+}
+.logo{
+    font-size: 160.00%;
+    color: var(--second-color);
+}
+.feeter div.logo p span{
+    color: var(--fourth-color);
+}
+.social img{
+    margin: 2%;
+}
+/* == Year == */
+.year p{
+    text-align: center;
+    padding: 4% 2% 7% 2%;
+    font-size: 112.50%;
+}
+@media screen and (max-width: 767px){
+    .container{
+        padding: 7% 7% 23% 7%;
+    }
+    .container header{
+        padding: 20% 7% 20% 7%;
+        font-weight: 510;
+    }
+    .container .content p:nth-child(2){
+       font-size: 93.75%;
+       padding: 10% 0 10% 0;
+       color: var(--second-color);
+    }
+    .click{
+        display: flex;
+        flex-direction: column;
+    }
+    .click a{
+        margin: 3%;
+    }
+    .zuriteam{
+    padding: 15% 0% 20% 0%;
+    line-height: 2.0em;
+    }
+    .zuriteam p:nth-child(1){
+        font-size: 93.75%;
+    }
+    .zuriteam p:nth-child(2){
+        font-size: 137.50%;
+    }
+    .flex-carriage div{
+       margin: 9% 8% 9% 8%;
+       padding: 10% 10% 20% 10%;
+       line-height: 1.7em;
+       color: var(--second-color);
+    }
+    
+    .flex-carriage div p:nth-child(1){  
+       width: 35%;
+       padding: 25px 30px;
+       color: var(--sixth-color);
+       font-size: 75.00%;
+   }
+   .flex-carriage div p.trained{
+       font-size: 100.00%;
+   }
+   .flex-carriage div a{
+       font-size: 100.00%;
+   }
+   .feeter{
+       display: block;
+       flex-direction: column;
+       text-align: center;
+       padding-bottom: 8%;
+       border-bottom: 1px solid var(--second-color);
+  }
+  .feeter div{
+       padding: 7% 0% 0% 0%;
+       line-height: 1.7em;
+  }
+   .feeter div:nth-child(4) img{
+      width: 16px;
+      height: 16px;
+  }
+}
+@media screen and (min-width: 1024px){
+    .feeter{
+       display: block;
+       flex-direction: column;
+       text-align: center;
+       padding-bottom: 8%;
+       border-bottom: 1px solid var(--second-color);
+  }
+  .feeter div{
+       padding: 0% 0% 0% 0%;
+       line-height: 1.7em;
+  }
+  
+}
