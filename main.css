@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;    
+}
+/* ===Colors=== */
+:root{
+    --first-color: rgba(0, 0, 0, 1);
+    --second-color: rgba(0, 0, 0, 0.6);
+    --third-color: red;
+    --fourth-color: rgba(255, 255, 255, 1);
+    --fifth-color: rgba(255, 204, 204, 0.5);
+}
+
+/* ===Font Size=== */
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    padding: 3%;
+    position: fixed;
+    width: 95%;    
+    top: 0;
+    left: 0;
+    background: var(--fourth-color);
+}
+header img:nth-child(2){
+    width: 5%;
+    height: 5%;
+    background: var(--third-color);
+    border-radius: 75%;
+    padding: 1%;
+    margin-left: 45%;
+}
+header a{
+    text-decoration: none;
+    text-align: center;
+    background: var(--third-color);
+    color: var(--fourth-color);
+    padding: 23px;
+    border-radius: 50px;
+}
+.reg{
+    padding-top: 2%;
+    padding-right: 2%;
+}
+/* ===Container=== */
+.container{
+    padding-top: 10%;
+}
+.container p{
+    text-align: center;
+}
+.container img:nth-child(1){
+    width: 75%;
+    height: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+p.search-begins{
+    font-size: 137.50%;
+    color: var(--third-color); 
+}
+.container p.gain{
+    font-size: 350.00%;
+    padding: 0% 5%;
+    line-height: 1.2em;
+    font-weight: 510;
+    color: var(--first-color);
+}
+img.line{
+    padding: 0% 6%;
+    float: right;
+    width: 32%;
+}
+.intro{
+    text-align: center;
+    padding: 10% 17% 5% 17%;
+    font-size: 131.25%;
+    line-height: 1.3em;
+}
+/* === Enroll === */
+.enroll{
+    text-align: center;
+}
+.enroll a{
+    text-decoration: none;
+    text-align: center;
+    background: var(--third-color);
+    color: var(--fourth-color);
+    padding: 12px 30px;
+    border-radius: 22px;
+    font-size: 118.75%;
+}
+img.male{
+    padding: 0% 6%;
+    width: 6%;
+    height: 6%;
+}
+img.wire1{
+    width: 10%;
+    height: 10%;
+    float: right;
+    padding: 0% 25% 3% 25%;
+}
+/* === Details Section === */
+.details{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: 5%;
+    border-top: 1px solid var(--second-color);
+    border-bottom: 1px solid var(--second-color);
+}
+.details div:nth-child(1) p{
+    text-transform: uppercase;
+    font-size: 125.00%;
+    font-weight: 510;
+    color: var(--first-color);
+    padding-top: 26%;
+}
+.details div:nth-child(2) img{
+    height: 226px;
+    width: 220px;
+    margin-right: 6%;
+}
+.details div:nth-child(3) p{
+    text-align: right;
+    font-size: 118.75%;
+    padding: 20% 0% 0% 20%;
+    color: var(--second-color);
+}
+/* === ZuriImporatance === */
+.zuriimportance{
+    padding: 1% 5%;
+}
+.zuriimportance img.secwire{
+    width: 10%;
+    height: 10%;
+    margin-right: 50%;
+}
+.zuriimportance p.reason{
+    color: var(--third-color);
+    font-size: 112.50%;
+}
+.industrial{
+    display: flex;
+}
+.zuriimportance p.industry{
+    font-size: 200.00%;
+    font-weight: 520;
+    padding-right: 10%;
+}
+img.star{
+    float: right;
+}
+/* === Benefits Section === */
+.benefits{
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.benefits div{
+   background: var(--fifth-color);
+   padding: 5%;
+   margin: 2%;
+   width: 35%;
+   
+   border-radius: 20px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.benefits div p:nth-child(1){
+    font-size: 350.00%;
+    font-weight: 600;
+}
+.benefits div p:nth-child(2){
+    font-size: 245.00%;
+    font-weight: 501;
+    padding-top: 7%;
+}
+.benefits div p:nth-child(3){
+    padding-top: 13%;
+    padding-right: 7%;
+    padding-bottom: 10%;
+    font-size: 143.75%;
+}
+.benefits div:nth-child(2), div:nth-child(3), div:nth-child(4), div:nth-child(5), div:nth-child(6){
+    background: var(--fourth-color);
+    color: var(--first-color);
+}
+.benefits div:nth-child(1){
+    background: red;
+    color: var(--fourth-color);
+    background-image: url(curve1.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+.benefits div:nth-child(2){
+    background-image: url(curve.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+.benefits div:nth-child(3){
+    background-image: url(curve3.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+.benefits div:nth-child(4){
+    background-image: url(curve4.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+.benefits div:nth-child(5){
+    background-image: url(curve5.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+.benefits div:nth-child(6){
+    background-image: url(curve6.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+.benefits div:hover{
+    transition: 0.5s ease;
+    transform: translateY(-5%);
+}
+/* === Practical === */
+.practice{
+    background: var(--third-color);
+    color: white;
+    padding: 7%;
+}
+.practice p.help{
+    font-size: 137.75%;
+}
+.practice p.quality{
+    font-size: 200.00%;
+    font-weight: 510;
+}
+.practice p.task{
+    padding: 3% 12% 4% 0%;
+    font-size: 150.00%;
+    
+}
+.practice a{
+    text-decoration: none;
+    font-size: 118.75%;
+    background: var(--fourth-color);
+    color: var(--third-color);
+    padding: 12px 30px;
+    border-radius: 22px;
+}
+.segregate{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.segregate p:nth-child(1), .segregate p:nth-child(2),.segregate p:nth-child(3), .segregate p:nth-child(4){
+    border: 2px solid var(--fourth-color);
+    padding: 14px 32px;
+    border-radius: 25px;
+    margin: 1%;
+    float: right;
+}
+.segregate img{
+    width: 25px;
+    height: 25px;
+    
+    float: left;
+}
+p span{
+    font-size: 125.75%;
+    margin-right: 0%;
+}
+img.sec5{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+img.girly{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 95%;
+}
+img.dot{
+    width: 15%;
+    height: 15%;
+}
+/* Scope of program */
+.scope{
+    padding: 5%;
+}
+.scope p.program{
+    color: var(--third-color);
+    font-size: 118.75%;
+}
+.scope p.list{
+    font-size: 200.00%;
+    font-weight: 550;
+}
+img.sect6{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 15%;
+    height: 15%;
+}
+/* === Courses Section === */
+.courses{
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;   
+}
+.courses div{
+   background: var(--fourth-color);
+   padding: 5%;
+   margin: 1%;
+   width: 37%;  
+   border-radius: 20px;
+   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+}
+.courses div p:nth-child(1) {
+    font-size: 125.00%;
+    font-weight: 559;
+    padding-bottom: 6%;
+}
+.courses div p.more {
+    padding-top: 10%;  
+}
+.courses div img {
+    width: 50px;
+    height: 50px;
+}
+.courses div:hover{
+    transition: 0.6s ease;
+    transform: translateY(-2%);
+}
+/* Questions Sections */
+.question{
+    display: none;
+}
+.question img{
+    width: 10%;
+    height: 10%;
+    
+}
+.question p.ask{
+    font-size: 137.75%;
+    color: var(--third-color);
+    text-align: center;
+}
+.question p.frequent{
+    font-size: 200.00%;
+    font-weight: 560;
+    text-align: center;
+}
+.box{
+    border: 1px solid var(--first-color);
+    padding: 10%;
+    text-align: center;
+}
+.box a{
+    display: block;
+    
+}
+
+.structure p{
+    text-align: center;
+}
+.structure p.ask{
+    font-size: 137.75%;
+    color: var(--third-color);
+    text-align: center;
+    padding-left: 17%;
+}
+.structure p.frequent{
+    font-size: 200.00%;
+    font-weight: 560;
+    text-align: center;
+    
+}
+.structure p.broad{
+    font-size: 150.00%;
+    color: rgba(0,0,0,0.8);
+    padding-top: 2%;
+}
+.structure img{
+    width: 15%;
+    height: 15%;  
+}
+.structure img:nth-child(2){
+    float: right;
+}
+/* === Student === */
+.student{
+    display: flex;
+    padding: 3%;
+    background-image: url("circle.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 15%; 
+}
+.student div{
+    background: rgba(0,0,0,0.9);
+    color: var(--fourth-color);
+    margin: 2%;
+    padding: 6%;
+    border-radius: 50px;
+    width: 47%;  
+    box-shadow: 0px 32px 64px 0px var(--fifth-color);
+}
+.student .full{
+    background-image: url("hour.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 20%;   
+}
+.student .partimers{
+    background-image: url("time.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 35%;
+}
+.student ul li{
+    font-size: 112.50%;
+    padding-top: 2%;
+    line-spacing: 1.5em;
+}
+img.clarity{
+    padding-top: 6%;
+    margin-left: 3%;
+}
+a.zuint{
+    color: var(--fourth-color);
+}
+.circle img{
+    width: 10%;
+    height: 10%;
+    padding: 5%;
+}
+/* === Get Started === */
+.conclusion{
+    padding: 5%;
+    
+}
+.started{
+    background: red;
+    padding: 10% 20%;
+    border-radius: 55px;
+    background-image: url("round.svg"),url("mains.png");
+    background-position: left center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 15%, 15%;
+}
+.started{
+    text-align: center;   
+}
+.started p{
+    color: var(--fourth-color);
+}
+.started p:nth-child(1){
+    font-size: 125.00%;
+}
+.started p:nth-child(2){
+    font-size: 300.00%;
+    font-weight: 505;
+}
+
+.started a{
+    text-decoration: none;
+    color: var(--third-color);
+    background: var(--fourth-color);
+    padding: 12px 30px;
+    border-radius: 22px;
+    font-size: 118.75%;
+    float: center;
+}
+
+.acknowledge{
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 3%;
+    width: 95%; 
+    background: var(--fourth-color);
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 3%;
+    width: 95%; 
+    color: var(--second-color);
+}
+.copy a{
+    text-decoration: none;
+    color: var(--second-color);
+}
+/* === Devices Responsiveness ===*/
+@media screen and (max-width: 767px){
+    *{
+        box-sizing: border-box;
+    }
+    header{
+        width: 100%;
+        justify-content: space-between;  
+        margin: 0%;
+        padding: 3%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: var(--fourth-color);
+    }
+    header img:nth-child(1){
+        width: 25%;
+        height: 25%;
+    }
+    header a{
+        padding: 15px;
+        
+    }
+    .container{
+       padding-top: 30%;
+    }
+    .container p{
+       text-align: center;
+    }
+    .container img:nth-child(1){
+       width: 85%;
+       height: 85%;
+       margin-right: auto;
+       margin-left: auto;
+       display: block;
+    }
+    p.search-begins{
+       font-size: 105.00%;
+       color: var(--third-color); 
+    }
+    .container p.gain{
+       font-size: 190.00%;
+       padding: 2% 5%;
+    }
+    img.line{
+       padding: 0% 3%;
+    }
+   .intro{
+       text-align: center;
+       padding: 8% 4% 15% 4%;
+       font-size: 112.50%;
+       line-height: 1.5em;
+    }
+    /* === Enroll === */
+    .reg{
+       padding-top: 2%;
+       padding-bottom: 6%;
+    }
+    .enroll a{
+       padding: 12px 30px;
+       border-radius: 22px;
+       font-size: 100.00%;
+     }
+     img.wire1{
+       width: 10%;
+       height: 10%;
+       float: center;
+       padding: 0%;
+       
+     }
+     /* === Details Section === */
+   .details{
+       display: block;
+       flex-direction: column;
+       width: 100%;
+       margin: 0%;
+       border-top: 1px solid
+       var(--second-color);
+       border-bottom: 1px solid
+       var(--second-color);
+     }
+     .details div:nth-child(1) p{
+    text-align: center;
+    font-size: 125.00%;
+    
+    padding-top: 5%;
+}
+.details div:nth-child(2) img{
+    height: 226px;
+    width: 220px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.details div:nth-child(3) p{
+    text-align: center;
+    
+    font-size: 112.50%;
+    padding: 0% 3% 5% 3%;
+    color: var(--second-color);
+}
+/* === ZuriImporatance === */
+.zuriimportance{
+    padding: 5% 5%;
+}
+.zuriimportance img.secwire{
+    width: 15%;
+    height: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.zuriimportance p.reason{
+    color: var(--third-color);
+    font-size: 112.50%;
+}
+.industrial{
+    display: flex;
+}
+.zuriimportance p.industry{
+    font-size: 137.50%;
+    color: rgba(0,0,0,0.8);
+    padding-top: 2%;
+}
+img.star{
+    display: none;
+}
+/* === Benefits Section === */
+.benefits{
+    padding-top: 5%;
+    display: block;
+    flex-wrap: wrap;
+    
+}
+.benefits div{
+   background: var(--fifth-color);
+   padding: 10% 10%;
+   margin: 5% 0%;
+   width: 100%;
+   
+   border-radius: 20px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.benefits div p:nth-child(1){
+    font-size: 350.00%;
+    font-weight: 600;
+}
+.benefits div p:nth-child(2){
+    font-size: 245.00%;
+    font-weight: 501;
+    padding-top: 7%;
+}
+.benefits div p:nth-child(3){
+    padding-top: 13%;
+    padding-right: 7%;
+    padding-bottom: 10%;
+    font-size: 143.75%;
+}
+.benefits div:nth-child(2), div:nth-child(3), div:nth-child(4), div:nth-child(5), div:nth-child(6){
+    background: var(--fourth-color);
+    color: var(--first-color);
+}
+.benefits div:nth-child(1){
+    background: red;
+    color: var(--fourth-color);
+    background-image: url(curve1.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+.benefits div:nth-child(2){
+    background-image: url(curve.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+.benefits div:nth-child(3){
+    background-image: url(curve3.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+.benefits div:nth-child(4){
+    background-image: url(curve4.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+.benefits div:nth-child(5){
+    background-image: url(curve5.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+.benefits div:nth-child(6){
+    background-image: url(curve6.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+.benefits div:hover{
+    transition: 0.5s ease;
+    transform: translateY(-2%);
+}
+}
+
